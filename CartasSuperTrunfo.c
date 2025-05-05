@@ -57,7 +57,7 @@ int main(){
     printf("Digite o número de pontos turísticos: \n");
     scanf("%d", &numpontosturisticos2);
 
-    printf("Vamos aos resultados");
+    printf("Vamos aos resultados \n");
     printf("Atributos da carta 1:\n Estado: %s\n Código: %s\n Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de pontos turísticos: %d\n", estado1, codigo1, cidade1, populacao1, area1, pib1, numpontosturisticos1); //imprime na tela os atributos da carta 1 de todas variáveis dela
     printf("Atributos da carta 2:\n Estado: %s\n Código: %s\n Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de pontos turísticos: %d\n", estado2, codigo2, cidade2, populacao2, area2, pib2, numpontosturisticos2); //imprime na tela os atributos da carta 1 de todas variáveis dela
 
