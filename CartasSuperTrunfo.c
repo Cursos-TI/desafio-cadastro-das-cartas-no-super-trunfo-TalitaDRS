@@ -3,8 +3,10 @@
 int main(){
     
     //declaração das variáveis das cartas 1 e 2
-    int populacao1, populacao2, numpontosturisticos1, numpontosturisticos2; //int para declarar variáveis inteiras
-    float area1, area2, nPIB1, nPIB2; //float para casas decimais
+    int populacao1, populacao2; //int para declarar variáveis inteiras
+    int numpontosturisticos1, numpontosturisticos2; 
+    float area1, area2; //float para números com pontos flutuantes
+    float nPIB1, nPIB2; 
     char codigo1[4], codigo2[4], estado1[3], estado2[3], cidade1[50], cidade2[50]; //char para variável de caracteres
 
     printf("SUPER TRUNFO \n"); //imprime a msg "SUPER TRUNFO" na tela
@@ -27,7 +29,7 @@ int main(){
     scanf("%f", &area1); //lê o que foi digitado pelo usuário, o %d é o especificador de formato para o tipo de variável de ponto flutuante
 
     printf("Digite o PIB: \n"); 
-    scanf("%f", &PIB1);
+    scanf("%f", &nPIB1);
     
     printf("Digite o número de pontos turísticos: \n");
     scanf("%d", &numpontosturisticos1);
@@ -50,7 +52,7 @@ int main(){
     scanf("%f", &area2);
 
     printf("Digite o PIB: \n");
-    scanf("%f", &PIB2);
+    scanf("%f", &nPIB2);
     
     printf("Digite o número de pontos turísticos: \n");
     scanf("%d", &numpontosturisticos2);
