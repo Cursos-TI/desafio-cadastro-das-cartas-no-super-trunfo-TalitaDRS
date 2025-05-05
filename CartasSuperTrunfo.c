@@ -58,8 +58,8 @@ int main(){
     scanf("%d", &numpontosturisticos2);
 
     printf("Vamos aos resultados");
-    printf("Atributos da carta 1:\n Estado: %s\n Código: %s\n Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de pontos turísticos: %d\n", estado1, codigo1, cidade1, populacao1, area1, PIB1, numpontosturisticos1); //imprime na tela os atributos da carta 1 de todas variáveis dela
-    printf("Atributos da carta 2:\n Estado: %s\n Código: %s\n Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de pontos turísticos: %d\n", estado2, codigo2, cidade2, populacao2, area2, PIB2, numpontosturisticos2); //imprime na tela os atributos da carta 1 de todas variáveis dela
+    printf("Atributos da carta 1:\n Estado: %s\n Código: %s\n Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de pontos turísticos: %d\n", estado1, codigo1, cidade1, populacao1, area1, nPIB1, numpontosturisticos1); //imprime na tela os atributos da carta 1 de todas variáveis dela
+    printf("Atributos da carta 2:\n Estado: %s\n Código: %s\n Cidade: %s\n População: %d\n Área: %f\n PIB: %f\n Número de pontos turísticos: %d\n", estado2, codigo2, cidade2, populacao2, area2, nPIB2, numpontosturisticos2); //imprime na tela os atributos da carta 1 de todas variáveis dela
 
     return 0;
 }
