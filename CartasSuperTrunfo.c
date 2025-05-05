@@ -4,7 +4,7 @@ int main(){
     
     //declaração das variáveis das cartas 1 e 2
     int populacao1, populacao2, numpontosturisticos1, numpontosturisticos2; //int para declarar variáveis inteiras
-    float area1, area2, PIB1, PIB2; //float para casas decimais
+    float area1, area2, nPIB1, nPIB2; //float para casas decimais
     char codigo1[4], codigo2[4], estado1[3], estado2[3], cidade1[50], cidade2[50]; //char para variável de caracteres
 
     printf("SUPER TRUNFO \n"); //imprime a msg "SUPER TRUNFO" na tela
